@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Philippine's Rice and Corn Crop Yield Report from 2010-2022",
+    "imageSrc": "projects/proj1.png",
+    "description": "This is a project made to learn utilizing Looker Studio as well as understand the trends and patterns in production of important crops in the Philippines.",
+    "skills": ["Microsoft Excel", "Data Visualization", "Research", "Looker Studio"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/Ozi-cyber/Data-Viz-Proj"
+  },
+  {
+    "title": "Gold Price Prediction using Regression Algorithms",
+    "imageSrc": "projects/proj2.png",
+    "description": "Comparing 4 regression models to determine whether macroeconomic or technical indicator is more accuracy in detecting gold price.",
+    "skills": ["Machine Learning", "Python", "Research", "Data Visualization"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/Ozi-cyber/Machine-Learning-Project"
+  },
+  {
+    "title": "Rice Disease Detection using Few-Shot Learning",
+    "imageSrc": "projects/proj3.png",
+    "description": "This is a undergraduate thesis project which utilize few-shot learning approach in classifying rice diseases in the Philippines",
+    "skills": ["Machine Learning", "Python", "Keras", "TensorFlow"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  }
+]
