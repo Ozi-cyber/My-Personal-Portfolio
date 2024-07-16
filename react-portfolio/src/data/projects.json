@@ -19,7 +19,7 @@
     "title": "Rice Disease Detection using Few-Shot Learning",
     "imageSrc": "projects/proj3.png",
     "description": "This is a undergraduate thesis project which utilize few-shot learning approach in classifying rice diseases in the Philippines",
-    "skills": ["Machine Learning", "Python", "Keras", "TensorFlow"],
+    "skills": ["Machine Learning", "Python", "Keras", "TensorFlow", "Research"],
     "demo": "https://www.example.com",
     "source": "https://www.github.com"
   }
