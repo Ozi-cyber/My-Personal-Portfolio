@@ -30,5 +30,9 @@
   {
     "title": "TensorFlow",
     "imageSrc": "skills/tensorflow.png"
+  },
+  {
+    "title": "WordPress",
+    "imageSrc": "skills/wordpress.png"
   }
 ]

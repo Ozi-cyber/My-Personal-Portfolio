@@ -4,13 +4,17 @@ import styles from "./Experience.module.css";
 import skills from "../../data/skills.json";
 import history from "../../data/history.json";
 import { getImageUrl } from "../../utils";
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init();
 
 export const Experience = () => {
   return (
     <section className={styles.container} id="experience">
-      <h2 className={styles.title}>Experience</h2>
-      <div className={styles.content}>
-        <div className={styles.skills}>
+      <h2 className={styles.title} data-aos="fade-up" data-aos-duration="1250" data-aos-anchor-placement="top-center">Experience</h2>
+      <div className={styles.content} data-aos="fade-up" data-aos-duration="1250" data-aos-anchor-placement="top-center">
+        <div className={styles.skills} >
           {skills.map((skill, id) => {
             return (
               <div key={id} className={styles.skill}>

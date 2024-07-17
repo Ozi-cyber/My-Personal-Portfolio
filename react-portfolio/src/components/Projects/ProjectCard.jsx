@@ -2,12 +2,16 @@ import React from "react";
 
 import styles from "./ProjectCard.module.css";
 import { getImageUrl } from "../../utils";
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init();
 
 export const ProjectCard = ({
   project: { title, imageSrc, description, skills, demo, source },
 }) => {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} data-aos="fade-up" data-aos-duration="1250">
       <img
         src={getImageUrl(imageSrc)}
         alt={`Image of ${title}`}
@@ -25,11 +29,8 @@ export const ProjectCard = ({
         })}
       </ul>
       <div className={styles.links}>
-        <a href={demo} className={styles.link}>
-          Demo
-        </a>
         <a href={source} className={styles.link}>
-          Source
+          GitHub
         </a>
       </div>
     </div>
